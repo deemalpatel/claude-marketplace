@@ -1,0 +1,28 @@
+{
+  "name": "my-plugins",
+  "owner": {
+    "name": "Deemal Patel"
+  },
+  "plugins": [
+    {
+      "name": "daily-summary-plugin",
+      "source": "./plugins/daily-summary-plugin",
+      "description": "Adds a /daily-summary skill for daily code/feature summarization"
+    },
+    {
+      "name": "optimization-review-plugin",
+      "source": "./plugins/optimization-review-plugin",
+      "description": "Adds a /optimization-review skill for looking for code optimization areas"
+    },
+    {
+      "name": "security-review-plugin",
+      "source": "./plugins/security-review-plugin",
+      "description": "Adds a /security-review skill for vulnerabilities"
+    },
+    {
+      "name":"ui-ux-critique-plugin",
+      "source":"./plugins/ui-ux-critique-plugin",
+      "description":"Professional critique of UI. Make sure it looks good"
+    }
+  ]
+}
